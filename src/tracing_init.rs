@@ -63,6 +63,48 @@ pub fn try_init_tracing_with_level(
         .map_err(|e| -> Box<dyn std::error::Error + Send + Sync> { e.into() })
 }
 
+/// Initialize tracing with JSON output.
+///
+/// Daemon services running under systemd or Kubernetes typically want
+/// structured JSON logs so the journal / pod log driver can parse fields.
+/// Default level is `info`; override via `RUST_LOG`.
+///
+/// # Panics
+///
+/// Panics if a global subscriber is already set.
+pub fn init_tracing_json() {
+    init_tracing_json_with_level("info");
+}
+
+/// Initialize tracing with JSON output at a custom default level.
+///
+/// # Panics
+///
+/// Panics if a global subscriber is already set.
+pub fn init_tracing_json_with_level(level: &str) {
+    tracing_subscriber::fmt()
+        .with_env_filter(
+            EnvFilter::try_from_default_env().unwrap_or_else(|_| EnvFilter::new(level)),
+        )
+        .json()
+        .init();
+}
+
+/// Try to initialize tracing with JSON output at a custom default level.
+///
+/// Returns `Ok(())` on success, `Err` if a global subscriber is already set.
+pub fn try_init_tracing_json_with_level(
+    level: &str,
+) -> Result<(), Box<dyn std::error::Error + Send + Sync>> {
+    tracing_subscriber::fmt()
+        .with_env_filter(
+            EnvFilter::try_from_default_env().unwrap_or_else(|_| EnvFilter::new(level)),
+        )
+        .json()
+        .try_init()
+        .map_err(|e| -> Box<dyn std::error::Error + Send + Sync> { e.into() })
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -102,6 +144,16 @@ mod tests {
     fn try_init_tracing_with_empty_string() {
         // Empty string should still work (no filtering)
         let _ = try_init_tracing_with_level("");
+    }
+
+    #[test]
+    fn try_init_tracing_json_does_not_panic() {
+        let _ = try_init_tracing_json_with_level("info");
+    }
+
+    #[test]
+    fn try_init_tracing_json_with_module_filter() {
+        let _ = try_init_tracing_json_with_level("myapp=debug,other=warn");
     }
 
     #[test]
