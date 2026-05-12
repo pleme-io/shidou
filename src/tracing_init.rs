@@ -48,6 +48,45 @@ pub fn try_init_tracing() -> Result<(), Box<dyn std::error::Error + Send + Sync>
     try_init_tracing_with_level("info")
 }
 
+/// Initialize tracing writing exclusively to **stderr**.
+///
+/// MCP / language-server / any process whose stdout is a protocol
+/// channel must keep stdout clean — every log line must go to stderr
+/// or the framing breaks. This is the canonical pleme-io entry for
+/// that posture; rmcp / rust-analyzer-shaped binaries should call it
+/// in the relevant subcommand instead of [`init_tracing`].
+///
+/// # Panics
+///
+/// Panics if a global subscriber is already set.
+pub fn init_tracing_to_stderr() {
+    init_tracing_to_stderr_with_level("info");
+}
+
+/// Stderr-only init with a custom default level. Mirror of
+/// [`init_tracing_with_level`].
+pub fn init_tracing_to_stderr_with_level(level: &str) {
+    tracing_subscriber::fmt()
+        .with_writer(std::io::stderr)
+        .with_env_filter(
+            EnvFilter::try_from_default_env().unwrap_or_else(|_| EnvFilter::new(level)),
+        )
+        .init();
+}
+
+/// `try_init` form of [`init_tracing_to_stderr`]. Returns an error
+/// rather than panicking when a global subscriber is already set —
+/// the test-friendly variant.
+pub fn try_init_tracing_to_stderr() -> Result<(), Box<dyn std::error::Error + Send + Sync>> {
+    tracing_subscriber::fmt()
+        .with_writer(std::io::stderr)
+        .with_env_filter(
+            EnvFilter::try_from_default_env().unwrap_or_else(|_| EnvFilter::new("info")),
+        )
+        .try_init()
+        .map_err(|e| -> Box<dyn std::error::Error + Send + Sync> { e.into() })
+}
+
 /// Try to initialize tracing with a custom default level.
 ///
 /// Returns `Ok(())` on success, or an error if a global subscriber is

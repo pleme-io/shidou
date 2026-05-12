@@ -53,6 +53,7 @@ pub use config::load_config;
 pub use runner::{AppRunner, dispatch};
 pub use runtime::{block_on, create_runtime};
 pub use tracing_init::{
-    init_tracing, init_tracing_json, init_tracing_json_with_level, init_tracing_with_level,
-    try_init_tracing, try_init_tracing_json_with_level, try_init_tracing_with_level,
+    init_tracing, init_tracing_json, init_tracing_json_with_level, init_tracing_to_stderr,
+    init_tracing_to_stderr_with_level, init_tracing_with_level, try_init_tracing,
+    try_init_tracing_json_with_level, try_init_tracing_to_stderr, try_init_tracing_with_level,
 };
