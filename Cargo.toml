@@ -23,7 +23,10 @@ opt-level = "z"
 strip = true
 
 [dependencies]
-shikumi = { git = "https://github.com/pleme-io/shikumi" }
+# version+git: cargo strips the git source on `cargo publish` (publishes the
+# crates.io version dep), while local + downstream-git builds resolve to
+# shikumi HEAD. Keeps shidou on absolute-latest locally yet crates.io-publishable.
+shikumi = { version = "0.1", git = "https://github.com/pleme-io/shikumi" }
 clap = { version = "4", features = ["derive"] }
 tracing = "0.1"
 tracing-subscriber = { version = "0.3", features = ["env-filter", "json"] }
