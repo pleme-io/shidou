@@ -1954,7 +1954,7 @@ rec {
       };
       "shidou" = rec {
         crateName = "shidou";
-        version = "0.1.2";
+        version = "0.1.3";
         edition = "2024";
         src = lib.cleanSourceWith { filter = sourceFilter;  src = ./.; };
         dependencies = [
