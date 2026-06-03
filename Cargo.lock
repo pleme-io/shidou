@@ -327,8 +327,8 @@ dependencies = [
 
 [[package]]
 name = "gen-macros"
-version = "0.1.0"
-source = "git+https://github.com/pleme-io/gen#213b137b300fa39f4a9c86406342389474883c3f"
+version = "0.1.5"
+source = "git+https://github.com/pleme-io/gen#f18830b4ef710ebe44c6d92abf0e020fd6943414"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -337,8 +337,8 @@ dependencies = [
 
 [[package]]
 name = "gen-platform"
-version = "0.1.0"
-source = "git+https://github.com/pleme-io/gen#213b137b300fa39f4a9c86406342389474883c3f"
+version = "0.1.5"
+source = "git+https://github.com/pleme-io/gen#f18830b4ef710ebe44c6d92abf0e020fd6943414"
 dependencies = [
  "gen-macros",
  "gen-types",
@@ -350,8 +350,8 @@ dependencies = [
 
 [[package]]
 name = "gen-types"
-version = "0.1.0"
-source = "git+https://github.com/pleme-io/gen#213b137b300fa39f4a9c86406342389474883c3f"
+version = "0.1.5"
+source = "git+https://github.com/pleme-io/gen#f18830b4ef710ebe44c6d92abf0e020fd6943414"
 dependencies = [
  "blake3",
  "chrono",
@@ -855,7 +855,7 @@ dependencies = [
 [[package]]
 name = "shikumi"
 version = "0.1.0"
-source = "git+https://github.com/pleme-io/shikumi#5ca1a3b84502348c6e0311e00b7d35a8f31a97ee"
+source = "git+https://github.com/pleme-io/shikumi#d75ca144b14dbc2fd5d2dd2c763181ae41ddf4c4"
 dependencies = [
  "arc-swap",
  "async-trait",
