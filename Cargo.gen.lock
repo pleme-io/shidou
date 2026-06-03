@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "cargo_lock_sha256": "fd66dcec606e2dafc323e714f54fb72aad7969f9ed09e7c5a2bb06ba3ab89392",
+  "cargo_lock_sha256": "53c85b05967316f9903f52af2d3b989043e97bb20eef713b6bf6b9fc88128dc3",
   "target_resolves": {
     "base": {
       "aho-corasick-1.1.4": {
@@ -1548,7 +1548,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "shidou-0.1.7": {
+      "shidou-0.1.8": {
         "runtime_dependencies": [
           {
             "name": "anyhow",
@@ -4619,8 +4619,8 @@
     "constant_time_eq-0.4.2": {
       "edition": "2024"
     },
-    "core-foundation-sys-0.8.7": {
-      "edition": "2018"
+    "cpufeatures-0.3.0": {
+      "edition": "2024"
     },
     "equivalent-1.0.2": {
       "edition": "2015"
@@ -4667,6 +4667,12 @@
     "inlinable_string-0.1.15": {
       "edition": "2018"
     },
+    "inotify-0.11.2": {
+      "edition": "2018"
+    },
+    "inotify-sys-0.1.5": {
+      "edition": "2015"
+    },
     "inventory-0.3.24": {
       "edition": "2021"
     },
@@ -4676,18 +4682,15 @@
     "itoa-1.0.18": {
       "edition": "2021"
     },
-    "kqueue-1.2.0": {
-      "edition": "2021"
-    },
-    "kqueue-sys-1.1.2": {
-      "edition": "2021"
-    },
     "lazy_static-1.5.0": {
       "edition": "2015"
     },
     "libc-0.2.186": {
       "edition": "2021",
       "build_script": "build.rs"
+    },
+    "linux-raw-sys-0.12.1": {
+      "edition": "2021"
     },
     "log-0.4.31": {
       "edition": "2021"
@@ -4785,7 +4788,7 @@
     "sharded-slab-0.1.7": {
       "edition": "2018"
     },
-    "shidou-0.1.7": {
+    "shidou-0.1.8": {
       "edition": "2024",
       "lib_target": {
         "name": "shidou",
@@ -4894,16 +4897,13 @@
       "edition": "2021",
       "build_script": "build.rs"
     },
-    "cpufeatures-0.3.0": {
-      "edition": "2024"
-    },
-    "inotify-0.11.2": {
+    "core-foundation-sys-0.8.7": {
       "edition": "2018"
     },
-    "inotify-sys-0.1.5": {
-      "edition": "2015"
+    "kqueue-1.2.0": {
+      "edition": "2021"
     },
-    "linux-raw-sys-0.12.1": {
+    "kqueue-sys-1.1.2": {
       "edition": "2021"
     }
   },

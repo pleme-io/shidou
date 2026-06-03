@@ -997,13 +997,13 @@ rec {
       };
       "gen-macros" = rec {
         crateName = "gen-macros";
-        version = "0.1.8";
+        version = "0.1.9";
         edition = "2024";
         workspace_member = null;
         src = pkgs.fetchgit {
           url = "https://github.com/pleme-io/gen";
-          rev = "97aaf2e4ce3cfbc50d0f7377d227bda42dd4d2c6";
-          sha256 = "1a91d9b524p3kmn3zxvsp0kxznnir23jdyiy9qp8945f77vyx8zy";
+          rev = "6d82c9d3885c781e923ec46330d05d7eca469a3b";
+          sha256 = "0h0ks7rsxav3dk6fmyciz0ncp94pvm92ankkw783vhq12hgnciia";
         };
         procMacro = true;
         libName = "gen_macros";
@@ -1029,13 +1029,13 @@ rec {
       };
       "gen-platform" = rec {
         crateName = "gen-platform";
-        version = "0.1.8";
+        version = "0.1.9";
         edition = "2024";
         workspace_member = null;
         src = pkgs.fetchgit {
           url = "https://github.com/pleme-io/gen";
-          rev = "97aaf2e4ce3cfbc50d0f7377d227bda42dd4d2c6";
-          sha256 = "1a91d9b524p3kmn3zxvsp0kxznnir23jdyiy9qp8945f77vyx8zy";
+          rev = "6d82c9d3885c781e923ec46330d05d7eca469a3b";
+          sha256 = "0h0ks7rsxav3dk6fmyciz0ncp94pvm92ankkw783vhq12hgnciia";
         };
         libName = "gen_platform";
         authors = [
@@ -1072,13 +1072,13 @@ rec {
       };
       "gen-types" = rec {
         crateName = "gen-types";
-        version = "0.1.8";
+        version = "0.1.9";
         edition = "2024";
         workspace_member = null;
         src = pkgs.fetchgit {
           url = "https://github.com/pleme-io/gen";
-          rev = "97aaf2e4ce3cfbc50d0f7377d227bda42dd4d2c6";
-          sha256 = "1a91d9b524p3kmn3zxvsp0kxznnir23jdyiy9qp8945f77vyx8zy";
+          rev = "6d82c9d3885c781e923ec46330d05d7eca469a3b";
+          sha256 = "0h0ks7rsxav3dk6fmyciz0ncp94pvm92ankkw783vhq12hgnciia";
         };
         libName = "gen_types";
         authors = [
@@ -2580,7 +2580,7 @@ rec {
       };
       "shidou" = rec {
         crateName = "shidou";
-        version = "0.1.7";
+        version = "0.1.8";
         edition = "2024";
         src = lib.cleanSourceWith { filter = sourceFilter;  src = ./.; };
         dependencies = [
@@ -2631,13 +2631,13 @@ rec {
       };
       "shikumi" = rec {
         crateName = "shikumi";
-        version = "0.1.0";
+        version = "0.1.2";
         edition = "2024";
         workspace_member = null;
         src = pkgs.fetchgit {
           url = "https://github.com/pleme-io/shikumi";
-          rev = "70b2f94fbc8f5e40e409b75d91af6d840ab0a02c";
-          sha256 = "02yfiv8rlc3x00irzk3sdp4dc93wf1s8688gjxpfkxqm2jzkwn4a";
+          rev = "61e5f97ad2f61205599b8679a4ff7b2075506003";
+          sha256 = "09dhr88ic8qsfg23dk1h0460yaa6kq81waqgdbx0mdqx6592chd6";
         };
         dependencies = [
           {
