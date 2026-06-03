@@ -839,7 +839,7 @@ dependencies = [
 
 [[package]]
 name = "shidou"
-version = "0.1.6"
+version = "0.1.7"
 dependencies = [
  "anyhow",
  "clap",
@@ -855,7 +855,7 @@ dependencies = [
 [[package]]
 name = "shikumi"
 version = "0.1.0"
-source = "git+https://github.com/pleme-io/shikumi#70b2f94fbc8f5e40e409b75d91af6d840ab0a02c"
+source = "git+https://github.com/pleme-io/shikumi#f6b4bd1a2c5757ad640f92b759b9e4eedb8e1013"
 dependencies = [
  "arc-swap",
  "async-trait",

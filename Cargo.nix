@@ -374,9 +374,9 @@ rec {
       };
       "bitflags" = rec {
         crateName = "bitflags";
-        version = "2.11.1";
+        version = "2.12.1";
         edition = "2021";
-        sha256 = "1cvqijg3rvwgis20a66vfdxannjsxfy5fgjqkaq3l13gyfcj4lf4";
+        sha256 = "02phhjm7w380zdh8928zf13cfi1bw2qz2ay36ml2jmwmmv8cxmw4";
         authors = [
           "The Rust Project Developers"
         ];
@@ -997,13 +997,13 @@ rec {
       };
       "gen-macros" = rec {
         crateName = "gen-macros";
-        version = "0.1.5";
+        version = "0.1.8";
         edition = "2024";
         workspace_member = null;
         src = pkgs.fetchgit {
           url = "https://github.com/pleme-io/gen";
-          rev = "f18830b4ef710ebe44c6d92abf0e020fd6943414";
-          sha256 = "0gdf44lwk58r6cx1qdgik6qannzwarj029khfs022fz6kwlvx279";
+          rev = "97aaf2e4ce3cfbc50d0f7377d227bda42dd4d2c6";
+          sha256 = "1a91d9b524p3kmn3zxvsp0kxznnir23jdyiy9qp8945f77vyx8zy";
         };
         procMacro = true;
         libName = "gen_macros";
@@ -1029,13 +1029,13 @@ rec {
       };
       "gen-platform" = rec {
         crateName = "gen-platform";
-        version = "0.1.5";
+        version = "0.1.8";
         edition = "2024";
         workspace_member = null;
         src = pkgs.fetchgit {
           url = "https://github.com/pleme-io/gen";
-          rev = "f18830b4ef710ebe44c6d92abf0e020fd6943414";
-          sha256 = "0gdf44lwk58r6cx1qdgik6qannzwarj029khfs022fz6kwlvx279";
+          rev = "97aaf2e4ce3cfbc50d0f7377d227bda42dd4d2c6";
+          sha256 = "1a91d9b524p3kmn3zxvsp0kxznnir23jdyiy9qp8945f77vyx8zy";
         };
         libName = "gen_platform";
         authors = [
@@ -1072,13 +1072,13 @@ rec {
       };
       "gen-types" = rec {
         crateName = "gen-types";
-        version = "0.1.5";
+        version = "0.1.8";
         edition = "2024";
         workspace_member = null;
         src = pkgs.fetchgit {
           url = "https://github.com/pleme-io/gen";
-          rev = "f18830b4ef710ebe44c6d92abf0e020fd6943414";
-          sha256 = "0gdf44lwk58r6cx1qdgik6qannzwarj029khfs022fz6kwlvx279";
+          rev = "97aaf2e4ce3cfbc50d0f7377d227bda42dd4d2c6";
+          sha256 = "1a91d9b524p3kmn3zxvsp0kxznnir23jdyiy9qp8945f77vyx8zy";
         };
         libName = "gen_types";
         authors = [
@@ -1632,9 +1632,9 @@ rec {
       };
       "log" = rec {
         crateName = "log";
-        version = "0.4.30";
+        version = "0.4.31";
         edition = "2021";
-        sha256 = "1rd6sw3gv9hb93464w7x3sip99zf8sjagm662r2ckg14b1lcavk1";
+        sha256 = "0kq2fh6q2bjkrm8m6hj8kb7gxfd7cr7qbcpxd1lc1xq5rns30fqi";
         authors = [
           "The Rust Project Developers"
         ];
@@ -2580,7 +2580,7 @@ rec {
       };
       "shidou" = rec {
         crateName = "shidou";
-        version = "0.1.6";
+        version = "0.1.7";
         edition = "2024";
         src = lib.cleanSourceWith { filter = sourceFilter;  src = ./.; };
         dependencies = [
@@ -2636,8 +2636,8 @@ rec {
         workspace_member = null;
         src = pkgs.fetchgit {
           url = "https://github.com/pleme-io/shikumi";
-          rev = "d75ca144b14dbc2fd5d2dd2c763181ae41ddf4c4";
-          sha256 = "1sgm8jxmcb16ywai9mg2v3wwblpqlk0av2qakk2w9sl1hfblr92v";
+          rev = "70b2f94fbc8f5e40e409b75d91af6d840ab0a02c";
+          sha256 = "02yfiv8rlc3x00irzk3sdp4dc93wf1s8688gjxpfkxqm2jzkwn4a";
         };
         dependencies = [
           {
