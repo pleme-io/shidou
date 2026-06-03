@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "cargo_lock_sha256": "2e482cac47886a750b021976dab5ef54bc29ebac13b185bde6be48371caa860a",
+  "cargo_lock_sha256": "fd66dcec606e2dafc323e714f54fb72aad7969f9ed09e7c5a2bb06ba3ab89392",
   "target_resolves": {
     "base": {
       "aho-corasick-1.1.4": {
@@ -579,7 +579,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "gen-macros-0.1.8": {
+      "gen-macros-0.1.9": {
         "runtime_dependencies": [
           {
             "name": "proc_macro2",
@@ -618,11 +618,11 @@
         "build_dependencies": [],
         "features": []
       },
-      "gen-platform-0.1.8": {
+      "gen-platform-0.1.9": {
         "runtime_dependencies": [
           {
             "name": "gen_macros",
-            "package_key": "gen-macros-0.1.8",
+            "package_key": "gen-macros-0.1.9",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -632,7 +632,7 @@
           },
           {
             "name": "gen_types",
-            "package_key": "gen-types-0.1.8",
+            "package_key": "gen-types-0.1.9",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -686,7 +686,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "gen-types-0.1.8": {
+      "gen-types-0.1.9": {
         "runtime_dependencies": [
           {
             "name": "blake3",
@@ -1548,7 +1548,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "shidou-0.1.6": {
+      "shidou-0.1.7": {
         "runtime_dependencies": [
           {
             "name": "anyhow",
@@ -1586,7 +1586,7 @@
           },
           {
             "name": "shikumi",
-            "package_key": "shikumi-0.1.0",
+            "package_key": "shikumi-0.1.2",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1630,7 +1630,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "shikumi-0.1.0": {
+      "shikumi-0.1.2": {
         "runtime_dependencies": [
           {
             "name": "arc_swap",
@@ -1668,7 +1668,7 @@
           },
           {
             "name": "gen_platform",
-            "package_key": "gen-platform-0.1.8",
+            "package_key": "gen-platform-0.1.9",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1678,7 +1678,7 @@
           },
           {
             "name": "gen_types",
-            "package_key": "gen-types-0.1.8",
+            "package_key": "gen-types-0.1.9",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -4638,14 +4638,14 @@
     "find-msvc-tools-0.1.9": {
       "edition": "2018"
     },
-    "gen-macros-0.1.8": {
+    "gen-macros-0.1.9": {
       "edition": "2024",
       "proc_macro": true
     },
-    "gen-platform-0.1.8": {
+    "gen-platform-0.1.9": {
       "edition": "2024"
     },
-    "gen-types-0.1.8": {
+    "gen-types-0.1.9": {
       "edition": "2024"
     },
     "getrandom-0.4.2": {
@@ -4785,14 +4785,14 @@
     "sharded-slab-0.1.7": {
       "edition": "2018"
     },
-    "shidou-0.1.6": {
+    "shidou-0.1.7": {
       "edition": "2024",
       "lib_target": {
         "name": "shidou",
         "path": "src/lib.rs"
       }
     },
-    "shikumi-0.1.0": {
+    "shikumi-0.1.2": {
       "edition": "2024"
     },
     "shlex-2.0.1": {
@@ -4908,10 +4908,10 @@
     }
   },
   "git_nar_sha256": {
-    "gen-macros-0.1.8": "sha256-/qPu9zmukIQuTj76JofI0drfJ7h69z9sneMSUVZqIak=",
-    "gen-platform-0.1.8": "sha256-/qPu9zmukIQuTj76JofI0drfJ7h69z9sneMSUVZqIak=",
-    "gen-types-0.1.8": "sha256-/qPu9zmukIQuTj76JofI0drfJ7h69z9sneMSUVZqIak=",
-    "shikumi-0.1.0": "sha256-ilg+vxQV9+lulw8hg3RwfCTWyG16zJ8jAH0wmtGOzgs="
+    "gen-macros-0.1.9": "sha256-KkZmHxQBwz3Q4XNaJVLdl6TLLPiR+erMbGOrrvPRE0A=",
+    "gen-platform-0.1.9": "sha256-KkZmHxQBwz3Q4XNaJVLdl6TLLPiR+erMbGOrrvPRE0A=",
+    "gen-types-0.1.9": "sha256-KkZmHxQBwz3Q4XNaJVLdl6TLLPiR+erMbGOrrvPRE0A=",
+    "shikumi-0.1.2": "sha256-pkEmUjEdtwr6ag8rHhCeRikPDAEwzDbEcxojFhHKsCU="
   },
   "flake_metadata": {}
 }
