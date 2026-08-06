@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "cargo_lock_sha256": "dd2782f6410d002c020142fba9dee98fee6d086e0b661b8ccf6607a2a534ac82",
+  "cargo_lock_sha256": "f404ffa6573d21f275d031a50a63e4272041415c4c98820233eabfb213cd1227",
   "manifest_sha256": {
-    "Cargo.toml": "81292b1e1fb75006166f0c6dd7885b1d468dbc1ef98fd90989705c00f23782f9"
+    "Cargo.toml": "c0026f30f1e4dbcf8310c6b44eaf7db1bfb4b42e14459f18bb2d8414d8803543"
   },
   "target_resolves": {
     "base": {
@@ -1533,7 +1533,7 @@
           },
           {
             "name": "shikumi",
-            "package_key": "shikumi-0.1.490-6f88ee2c75964c8dc280c8db95f618606d13de46",
+            "package_key": "shikumi-0.1.490",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1580,7 +1580,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "shikumi-0.1.490-6f88ee2c75964c8dc280c8db95f618606d13de46": {
+      "shikumi-0.1.490": {
         "runtime_dependencies": [
           {
             "name": "arc_swap",
@@ -4743,7 +4743,7 @@
         "path": "src/lib.rs"
       }
     },
-    "shikumi-0.1.490-6f88ee2c75964c8dc280c8db95f618606d13de46": {
+    "shikumi-0.1.490": {
       "edition": "2024"
     },
     "shlex-2.0.1": {
@@ -4849,8 +4849,6 @@
       "build_script": "build.rs"
     }
   },
-  "git_nar_sha256": {
-    "shikumi-0.1.490-6f88ee2c75964c8dc280c8db95f618606d13de46": "sha256-Pg9PUOP6Lv/rn0kN/VHWCQZPV/m8OiBdS5wSHXbigSE="
-  },
+  "git_nar_sha256": {},
   "flake_metadata": {}
 }
