@@ -24,9 +24,21 @@ strip = true
 
 [dependencies]
 # version+git: cargo strips the git source on `cargo publish` (publishes the
-# crates.io version dep), while local + downstream-git builds resolve to
-# shikumi HEAD. Keeps shidou on absolute-latest locally yet crates.io-publishable.
-shikumi = { version = "0.1", git = "https://github.com/pleme-io/shikumi", rev = "b41d01e453b2c2505941ba02003f48721ca02b17" }
+# crates.io version dep), while local + downstream-git builds resolve to this
+# rev. crates.io-publishable either way.
+#
+# ★ The `rev` is NOT private to shidou — it is a second SOURCE for shikumi in
+# every consumer's graph, and a consumer's `[patch.crates-io]` cannot unify an
+# explicit git rev. mado pins shikumi as well, so if the two revs ever
+# disagree the graph carries TWO shikumis and any type crossing the boundary
+# stops matching itself. That failure is already documented for garasu in
+# mado's own Cargo.toml (measured 2026-07-31). So: move this rev in LOCKSTEP
+# with the consumers, in the same push — never bump one side alone.
+#
+# Bumped 2026-08-06 off the spent 2026-06-27 pin (b41d01e), taken when shikumi
+# main had lost `closed_axis_label_string_surface` / `serde_via_display_fromstr`
+# and `discovery::Format`'s Display/FromStr. All three are back on main.
+shikumi = { version = "0.1", git = "https://github.com/pleme-io/shikumi", rev = "6f88ee2c75964c8dc280c8db95f618606d13de46" }
 clap = { version = "4", features = ["derive"] }
 tracing = "0.1"
 tracing-subscriber = { version = "0.3", features = ["env-filter", "json"] }
