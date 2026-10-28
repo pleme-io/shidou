@@ -1,8 +1,8 @@
 {
   "schema_version": 2,
-  "cargo_lock_sha256": "3efe25c797e5cf5bb3362fe081d2202160e36cd62cf85a9b1481aad86c4284d1",
+  "cargo_lock_sha256": "1208a2cfa2867f1f46f9c28977cb1b80addee4bb7652dcf9699864afa0933c0a",
   "manifest_sha256": {
-    "Cargo.toml": "c0026f30f1e4dbcf8310c6b44eaf7db1bfb4b42e14459f18bb2d8414d8803543"
+    "Cargo.toml": "3eeb8162531af3133738d2deb35a2c6292fa03ac3cf6227caa5cc53aa794e199"
   },
   "target_resolves": {
     "base": {
@@ -123,7 +123,7 @@
           "std"
         ]
       },
-      "arc-swap-1.9.2": {
+      "arc-swap-1.9.3": {
         "runtime_dependencies": [
           {
             "name": "rustversion",
@@ -139,17 +139,12 @@
         "build_dependencies": [],
         "features": []
       },
-      "arrayref-0.3.9": {
-        "runtime_dependencies": [],
-        "build_dependencies": [],
-        "features": []
-      },
       "arrayvec-0.7.8": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": []
       },
-      "async-trait-0.1.91": {
+      "async-trait-0.1.92": {
         "runtime_dependencies": [
           {
             "name": "proc_macro2",
@@ -173,7 +168,7 @@
           },
           {
             "name": "syn",
-            "package_key": "syn-3.0.3",
+            "package_key": "syn-3.0.9",
             "kind": "normal",
             "features": [
               "clone-impls",
@@ -197,18 +192,18 @@
         "build_dependencies": [],
         "features": []
       },
-      "bitflags-2.13.1": {
+      "bitflags-2.13.2": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": [
           "std"
         ]
       },
-      "cc-1.4.0": {
+      "cc-1.10.0": {
         "runtime_dependencies": [
           {
             "name": "find_msvc_tools",
-            "package_key": "find-msvc-tools-0.1.9",
+            "package_key": "find-msvc-tools-0.1.15",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -230,7 +225,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "cfg-if-1.0.4": {
+      "cfg-if-1.0.5": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": []
@@ -287,11 +282,11 @@
           "windows-link"
         ]
       },
-      "clap-4.6.6": {
+      "clap-4.6.7": {
         "runtime_dependencies": [
           {
             "name": "clap_builder",
-            "package_key": "clap_builder-4.6.6",
+            "package_key": "clap_builder-4.6.7",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -301,7 +296,7 @@
           },
           {
             "name": "clap_derive",
-            "package_key": "clap_derive-4.6.4",
+            "package_key": "clap_derive-4.6.7",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -322,7 +317,7 @@
           "usage"
         ]
       },
-      "clap_builder-4.6.6": {
+      "clap_builder-4.6.7": {
         "runtime_dependencies": [
           {
             "name": "anstream",
@@ -346,7 +341,7 @@
           },
           {
             "name": "clap_lex",
-            "package_key": "clap_lex-1.1.0",
+            "package_key": "clap_lex-1.1.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -375,7 +370,7 @@
           "usage"
         ]
       },
-      "clap_derive-4.6.4": {
+      "clap_derive-4.6.7": {
         "runtime_dependencies": [
           {
             "name": "heck",
@@ -409,7 +404,7 @@
           },
           {
             "name": "syn",
-            "package_key": "syn-3.0.3",
+            "package_key": "syn-3.0.9",
             "kind": "normal",
             "features": [
               "full"
@@ -425,7 +420,7 @@
           "default"
         ]
       },
-      "clap_lex-1.1.0": {
+      "clap_lex-1.1.1": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": []
@@ -447,7 +442,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "equivalent-1.0.2": {
+      "equivalent-1.0.3": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": []
@@ -456,7 +451,7 @@
         "runtime_dependencies": [
           {
             "name": "libc",
-            "package_key": "libc-0.2.189",
+            "package_key": "libc-0.2.191",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -466,7 +461,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.189",
+            "package_key": "libc-0.2.191",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -476,7 +471,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.189",
+            "package_key": "libc-0.2.191",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -561,12 +556,12 @@
           "toml"
         ]
       },
-      "find-msvc-tools-0.1.9": {
+      "find-msvc-tools-0.1.15": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": []
       },
-      "gen-macros-0.1.54": {
+      "gen-macros-0.1.55": {
         "runtime_dependencies": [
           {
             "name": "proc_macro2",
@@ -605,11 +600,11 @@
         "build_dependencies": [],
         "features": []
       },
-      "gen-platform-0.1.54": {
+      "gen-platform-0.1.55": {
         "runtime_dependencies": [
           {
             "name": "gen_macros",
-            "package_key": "gen-macros-0.1.54",
+            "package_key": "gen-macros-0.1.55",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -619,7 +614,7 @@
           },
           {
             "name": "gen_types",
-            "package_key": "gen-types-0.1.54",
+            "package_key": "gen-types-0.1.55",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -629,7 +624,7 @@
           },
           {
             "name": "inventory",
-            "package_key": "inventory-0.3.24",
+            "package_key": "inventory-0.3.25",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -651,7 +646,7 @@
           },
           {
             "name": "serde_json",
-            "package_key": "serde_json-1.0.151",
+            "package_key": "serde_json-1.0.154",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -661,7 +656,7 @@
           },
           {
             "name": "thiserror",
-            "package_key": "thiserror-2.0.19",
+            "package_key": "thiserror-2.0.21",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -673,11 +668,11 @@
         "build_dependencies": [],
         "features": []
       },
-      "gen-types-0.1.54": {
+      "gen-types-0.1.55": {
         "runtime_dependencies": [
           {
             "name": "blake3",
-            "package_key": "blake3-1.8.6",
+            "package_key": "blake3-1.8.7",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -699,7 +694,7 @@
           },
           {
             "name": "indexmap",
-            "package_key": "indexmap-2.14.0",
+            "package_key": "indexmap-2.14.2",
             "kind": "normal",
             "features": [
               "serde"
@@ -711,7 +706,7 @@
           },
           {
             "name": "inventory",
-            "package_key": "inventory-0.3.24",
+            "package_key": "inventory-0.3.25",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -733,7 +728,7 @@
           },
           {
             "name": "serde_json",
-            "package_key": "serde_json-1.0.151",
+            "package_key": "serde_json-1.0.154",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -743,7 +738,7 @@
           },
           {
             "name": "thiserror",
-            "package_key": "thiserror-2.0.19",
+            "package_key": "thiserror-2.0.21",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -759,7 +754,7 @@
         "runtime_dependencies": [
           {
             "name": "cfg_if",
-            "package_key": "cfg-if-1.0.4",
+            "package_key": "cfg-if-1.0.5",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -769,7 +764,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.189",
+            "package_key": "libc-0.2.191",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -779,7 +774,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.189",
+            "package_key": "libc-0.2.191",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -789,7 +784,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.189",
+            "package_key": "libc-0.2.191",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -799,7 +794,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.189",
+            "package_key": "libc-0.2.191",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -809,7 +804,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.189",
+            "package_key": "libc-0.2.191",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -819,7 +814,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.189",
+            "package_key": "libc-0.2.191",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -829,7 +824,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.189",
+            "package_key": "libc-0.2.191",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -839,7 +834,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.189",
+            "package_key": "libc-0.2.191",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -861,11 +856,11 @@
         "build_dependencies": [],
         "features": []
       },
-      "indexmap-2.14.0": {
+      "indexmap-2.14.2": {
         "runtime_dependencies": [
           {
             "name": "equivalent",
-            "package_key": "equivalent-1.0.2",
+            "package_key": "equivalent-1.0.3",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -906,7 +901,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "inventory-0.3.24": {
+      "inventory-0.3.25": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": []
@@ -923,12 +918,12 @@
         "build_dependencies": [],
         "features": []
       },
-      "lazy_static-1.5.0": {
+      "lazy_static-1.5.1": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": []
       },
-      "libc-0.2.189": {
+      "libc-0.2.191": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": [
@@ -936,10 +931,11 @@
           "std"
         ]
       },
-      "log-0.4.33": {
+      "log-0.4.34": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": [
+          "alloc",
           "std"
         ]
       },
@@ -971,11 +967,11 @@
           "std"
         ]
       },
-      "notify-types-2.1.0": {
+      "notify-types-2.2.0": {
         "runtime_dependencies": [
           {
             "name": "bitflags",
-            "package_key": "bitflags-2.13.1",
+            "package_key": "bitflags-2.13.2",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1120,7 +1116,7 @@
         "runtime_dependencies": [
           {
             "name": "unicode_ident",
-            "package_key": "unicode-ident-1.0.24",
+            "package_key": "unicode-ident-1.0.27",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1255,7 +1251,7 @@
           },
           {
             "name": "syn",
-            "package_key": "syn-3.0.3",
+            "package_key": "syn-3.0.9",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1358,7 +1354,7 @@
           },
           {
             "name": "serde_json",
-            "package_key": "serde_json-1.0.151",
+            "package_key": "serde_json-1.0.154",
             "kind": "normal",
             "features": [
               "alloc"
@@ -1411,7 +1407,7 @@
           },
           {
             "name": "syn",
-            "package_key": "syn-3.0.3",
+            "package_key": "syn-3.0.9",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1494,7 +1490,7 @@
           },
           {
             "name": "syn",
-            "package_key": "syn-3.0.3",
+            "package_key": "syn-3.0.9",
             "kind": "normal",
             "features": [
               "clone-impls",
@@ -1538,7 +1534,7 @@
           },
           {
             "name": "syn",
-            "package_key": "syn-3.0.3",
+            "package_key": "syn-3.0.9",
             "kind": "normal",
             "features": [
               "clone-impls",
@@ -1555,7 +1551,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "serde_json-1.0.151": {
+      "serde_json-1.0.154": {
         "runtime_dependencies": [
           {
             "name": "itoa",
@@ -1609,7 +1605,7 @@
         "runtime_dependencies": [
           {
             "name": "indexmap",
-            "package_key": "indexmap-2.14.0",
+            "package_key": "indexmap-2.14.2",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1683,7 +1679,7 @@
         "runtime_dependencies": [
           {
             "name": "lazy_static",
-            "package_key": "lazy_static-1.5.0",
+            "package_key": "lazy_static-1.5.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1695,7 +1691,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "shidou-0.1.10": {
+      "shidou-0.1.11": {
         "runtime_dependencies": [
           {
             "name": "anyhow",
@@ -1709,7 +1705,7 @@
           },
           {
             "name": "clap",
-            "package_key": "clap-4.6.6",
+            "package_key": "clap-4.6.7",
             "kind": "normal",
             "features": [
               "derive"
@@ -1743,7 +1739,7 @@
           },
           {
             "name": "tokio",
-            "package_key": "tokio-1.53.1",
+            "package_key": "tokio-1.54.1",
             "kind": "normal",
             "features": [
               "rt-multi-thread"
@@ -1784,7 +1780,7 @@
         "runtime_dependencies": [
           {
             "name": "arc_swap",
-            "package_key": "arc-swap-1.9.2",
+            "package_key": "arc-swap-1.9.3",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1794,7 +1790,7 @@
           },
           {
             "name": "async_trait",
-            "package_key": "async-trait-0.1.91",
+            "package_key": "async-trait-0.1.92",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1817,7 +1813,7 @@
           },
           {
             "name": "gen_platform",
-            "package_key": "gen-platform-0.1.54",
+            "package_key": "gen-platform-0.1.55",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1827,7 +1823,7 @@
           },
           {
             "name": "gen_types",
-            "package_key": "gen-types-0.1.54",
+            "package_key": "gen-types-0.1.55",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1837,7 +1833,7 @@
           },
           {
             "name": "notify",
-            "package_key": "notify-8.2.0",
+            "package_key": "notify-8.2.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -1847,7 +1843,7 @@
           },
           {
             "name": "notify",
-            "package_key": "notify-8.2.0",
+            "package_key": "notify-8.2.1",
             "kind": "normal",
             "features": [
               "macos_fsevent"
@@ -1881,7 +1877,7 @@
           },
           {
             "name": "serde_json",
-            "package_key": "serde_json-1.0.151",
+            "package_key": "serde_json-1.0.154",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1901,7 +1897,7 @@
           },
           {
             "name": "thiserror",
-            "package_key": "thiserror-2.0.19",
+            "package_key": "thiserror-2.0.21",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1933,7 +1929,7 @@
           "std"
         ]
       },
-      "smallvec-1.15.2": {
+      "smallvec-1.16.4": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": []
@@ -1967,7 +1963,7 @@
           },
           {
             "name": "unicode_ident",
-            "package_key": "unicode-ident-1.0.24",
+            "package_key": "unicode-ident-1.0.27",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1986,11 +1982,10 @@
           "parsing",
           "printing",
           "proc-macro",
-          "visit",
           "visit-mut"
         ]
       },
-      "syn-3.0.3": {
+      "syn-3.0.9": {
         "runtime_dependencies": [
           {
             "name": "proc_macro2",
@@ -2014,7 +2009,7 @@
           },
           {
             "name": "unicode_ident",
-            "package_key": "unicode-ident-1.0.24",
+            "package_key": "unicode-ident-1.0.27",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2028,10 +2023,12 @@
           "clone-impls",
           "default",
           "derive",
+          "extra-traits",
           "full",
           "parsing",
           "printing",
           "proc-macro",
+          "visit",
           "visit-mut"
         ]
       },
@@ -2071,7 +2068,7 @@
           },
           {
             "name": "rustix",
-            "package_key": "rustix-1.1.4",
+            "package_key": "rustix-1.1.6",
             "kind": "normal",
             "features": [
               "fs"
@@ -2088,11 +2085,11 @@
           "getrandom"
         ]
       },
-      "thiserror-2.0.19": {
+      "thiserror-2.0.21": {
         "runtime_dependencies": [
           {
             "name": "thiserror_impl",
-            "package_key": "thiserror-impl-2.0.19",
+            "package_key": "thiserror-impl-2.0.21",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2107,7 +2104,7 @@
           "std"
         ]
       },
-      "thiserror-impl-2.0.19": {
+      "thiserror-impl-2.0.21": {
         "runtime_dependencies": [
           {
             "name": "proc_macro2",
@@ -2131,7 +2128,7 @@
           },
           {
             "name": "syn",
-            "package_key": "syn-3.0.3",
+            "package_key": "syn-3.0.9",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2147,7 +2144,7 @@
         "runtime_dependencies": [
           {
             "name": "cfg_if",
-            "package_key": "cfg-if-1.0.4",
+            "package_key": "cfg-if-1.0.5",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2159,7 +2156,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "tokio-1.53.1": {
+      "tokio-1.54.1": {
         "runtime_dependencies": [
           {
             "name": "pin_project_lite",
@@ -2257,7 +2254,7 @@
         "runtime_dependencies": [
           {
             "name": "indexmap",
-            "package_key": "indexmap-2.14.0",
+            "package_key": "indexmap-2.14.2",
             "kind": "normal",
             "features": [
               "std"
@@ -2445,7 +2442,7 @@
         "runtime_dependencies": [
           {
             "name": "log",
-            "package_key": "log-0.4.33",
+            "package_key": "log-0.4.34",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2562,7 +2559,7 @@
           },
           {
             "name": "serde_json",
-            "package_key": "serde_json-1.0.151",
+            "package_key": "serde_json-1.0.154",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2582,7 +2579,7 @@
           },
           {
             "name": "smallvec",
-            "package_key": "smallvec-1.15.2",
+            "package_key": "smallvec-1.16.4",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2686,7 +2683,7 @@
           "default"
         ]
       },
-      "unicode-ident-1.0.24": {
+      "unicode-ident-1.0.27": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": []
@@ -2751,18 +2748,8 @@
     "targets": {
       "aarch64-apple-darwin": {
         "overrides": {
-          "blake3-1.8.6": {
+          "blake3-1.8.7": {
             "runtime_dependencies": [
-              {
-                "name": "arrayref",
-                "package_key": "arrayref-0.3.9",
-                "kind": "normal",
-                "features": [],
-                "uses_default_features": true,
-                "optional": false,
-                "target": null,
-                "tree": "target"
-              },
               {
                 "name": "arrayvec",
                 "package_key": "arrayvec-0.7.8",
@@ -2775,7 +2762,7 @@
               },
               {
                 "name": "cfg_if",
-                "package_key": "cfg-if-1.0.4",
+                "package_key": "cfg-if-1.0.5",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -2797,7 +2784,7 @@
             "build_dependencies": [
               {
                 "name": "cc",
-                "package_key": "cc-1.4.0",
+                "package_key": "cc-1.10.0",
                 "kind": "build",
                 "features": [],
                 "uses_default_features": true,
@@ -2819,22 +2806,6 @@
               "link"
             ]
           },
-          "fsevent-sys-4.1.0": {
-            "runtime_dependencies": [
-              {
-                "name": "libc",
-                "package_key": "libc-0.2.189",
-                "kind": "normal",
-                "features": [],
-                "uses_default_features": true,
-                "optional": false,
-                "target": null,
-                "tree": "target"
-              }
-            ],
-            "build_dependencies": [],
-            "features": []
-          },
           "iana-time-zone-0.1.65": {
             "runtime_dependencies": [
               {
@@ -2853,11 +2824,11 @@
               "fallback"
             ]
           },
-          "notify-8.2.0": {
+          "notify-8.2.1": {
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.13.1",
+                "package_key": "bitflags-2.13.2",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -2866,18 +2837,8 @@
                 "tree": "target"
               },
               {
-                "name": "fsevent_sys",
-                "package_key": "fsevent-sys-4.1.0",
-                "kind": "normal",
-                "features": [],
-                "uses_default_features": true,
-                "optional": true,
-                "target": "cfg(target_os = \"macos\")",
-                "tree": "target"
-              },
-              {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -2887,7 +2848,7 @@
               },
               {
                 "name": "log",
-                "package_key": "log-0.4.33",
+                "package_key": "log-0.4.34",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -2897,12 +2858,44 @@
               },
               {
                 "name": "notify_types",
-                "package_key": "notify-types-2.1.0",
+                "package_key": "notify-types-2.2.0",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
                 "optional": false,
                 "target": null,
+                "tree": "target"
+              },
+              {
+                "name": "objc2_core_foundation",
+                "package_key": "objc2-core-foundation-0.3.2",
+                "kind": "normal",
+                "features": [
+                  "CFArray",
+                  "CFDate",
+                  "CFError",
+                  "CFRunLoop",
+                  "CFString",
+                  "CFURL",
+                  "std"
+                ],
+                "uses_default_features": false,
+                "optional": true,
+                "target": "cfg(target_os = \"macos\")",
+                "tree": "target"
+              },
+              {
+                "name": "objc2_core_services",
+                "package_key": "objc2-core-services-0.3.2",
+                "kind": "normal",
+                "features": [
+                  "FSEvents",
+                  "libc",
+                  "std"
+                ],
+                "uses_default_features": false,
+                "optional": true,
+                "target": "cfg(target_os = \"macos\")",
                 "tree": "target"
               },
               {
@@ -2919,14 +2912,76 @@
             "build_dependencies": [],
             "features": [
               "fsevent-sys",
-              "macos_fsevent"
+              "macos_fsevent",
+              "objc2-core-foundation",
+              "objc2-core-services"
             ]
           },
-          "rustix-1.1.4": {
+          "objc2-core-foundation-0.3.2": {
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.13.1",
+                "package_key": "bitflags-2.13.2",
+                "kind": "normal",
+                "features": [
+                  "std"
+                ],
+                "uses_default_features": false,
+                "optional": true,
+                "target": null,
+                "tree": "target"
+              }
+            ],
+            "build_dependencies": [],
+            "features": [
+              "CFArray",
+              "CFDate",
+              "CFError",
+              "CFRunLoop",
+              "CFString",
+              "CFURL",
+              "CFUUID",
+              "alloc",
+              "bitflags",
+              "std"
+            ]
+          },
+          "objc2-core-services-0.3.2": {
+            "runtime_dependencies": [
+              {
+                "name": "libc",
+                "package_key": "libc-0.2.191",
+                "kind": "normal",
+                "features": [],
+                "uses_default_features": false,
+                "optional": true,
+                "target": null,
+                "tree": "target"
+              },
+              {
+                "name": "objc2_core_foundation",
+                "package_key": "objc2-core-foundation-0.3.2",
+                "kind": "normal",
+                "features": [],
+                "uses_default_features": false,
+                "optional": false,
+                "target": null,
+                "tree": "target"
+              }
+            ],
+            "build_dependencies": [],
+            "features": [
+              "FSEvents",
+              "alloc",
+              "libc",
+              "std"
+            ]
+          },
+          "rustix-1.1.6": {
+            "runtime_dependencies": [
+              {
+                "name": "bitflags",
+                "package_key": "bitflags-2.13.2",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -2966,7 +3021,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -2976,7 +3031,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -2997,18 +3052,8 @@
       },
       "aarch64-unknown-linux-gnu": {
         "overrides": {
-          "blake3-1.8.6": {
+          "blake3-1.8.7": {
             "runtime_dependencies": [
-              {
-                "name": "arrayref",
-                "package_key": "arrayref-0.3.9",
-                "kind": "normal",
-                "features": [],
-                "uses_default_features": true,
-                "optional": false,
-                "target": null,
-                "tree": "target"
-              },
               {
                 "name": "arrayvec",
                 "package_key": "arrayvec-0.7.8",
@@ -3021,7 +3066,7 @@
               },
               {
                 "name": "cfg_if",
-                "package_key": "cfg-if-1.0.4",
+                "package_key": "cfg-if-1.0.5",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3043,7 +3088,7 @@
             "build_dependencies": [
               {
                 "name": "cc",
-                "package_key": "cc-1.4.0",
+                "package_key": "cc-1.10.0",
                 "kind": "build",
                 "features": [],
                 "uses_default_features": true,
@@ -3064,11 +3109,11 @@
               "fallback"
             ]
           },
-          "inotify-0.11.4": {
+          "inotify-0.11.5": {
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.13.1",
+                "package_key": "bitflags-2.13.2",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3088,7 +3133,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3104,7 +3149,7 @@
             "runtime_dependencies": [
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3128,11 +3173,11 @@
               "no_std"
             ]
           },
-          "mio-1.2.2": {
+          "mio-1.2.4": {
             "runtime_dependencies": [
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3142,7 +3187,7 @@
               },
               {
                 "name": "log",
-                "package_key": "log-0.4.33",
+                "package_key": "log-0.4.34",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3159,11 +3204,11 @@
               "os-poll"
             ]
           },
-          "notify-8.2.0": {
+          "notify-8.2.1": {
             "runtime_dependencies": [
               {
                 "name": "inotify",
-                "package_key": "inotify-0.11.4",
+                "package_key": "inotify-0.11.5",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3173,7 +3218,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3183,7 +3228,7 @@
               },
               {
                 "name": "log",
-                "package_key": "log-0.4.33",
+                "package_key": "log-0.4.34",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3193,7 +3238,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.2",
+                "package_key": "mio-1.2.4",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -3205,7 +3250,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.2",
+                "package_key": "mio-1.2.4",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -3217,7 +3262,7 @@
               },
               {
                 "name": "notify_types",
-                "package_key": "notify-types-2.1.0",
+                "package_key": "notify-types-2.2.0",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3239,14 +3284,16 @@
             "build_dependencies": [],
             "features": [
               "fsevent-sys",
-              "macos_fsevent"
+              "macos_fsevent",
+              "objc2-core-foundation",
+              "objc2-core-services"
             ]
           },
-          "rustix-1.1.4": {
+          "rustix-1.1.6": {
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.13.1",
+                "package_key": "bitflags-2.13.2",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3286,7 +3333,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3296,7 +3343,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3348,18 +3395,8 @@
       },
       "aarch64-unknown-linux-musl": {
         "overrides": {
-          "blake3-1.8.6": {
+          "blake3-1.8.7": {
             "runtime_dependencies": [
-              {
-                "name": "arrayref",
-                "package_key": "arrayref-0.3.9",
-                "kind": "normal",
-                "features": [],
-                "uses_default_features": true,
-                "optional": false,
-                "target": null,
-                "tree": "target"
-              },
               {
                 "name": "arrayvec",
                 "package_key": "arrayvec-0.7.8",
@@ -3372,7 +3409,7 @@
               },
               {
                 "name": "cfg_if",
-                "package_key": "cfg-if-1.0.4",
+                "package_key": "cfg-if-1.0.5",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3394,7 +3431,7 @@
             "build_dependencies": [
               {
                 "name": "cc",
-                "package_key": "cc-1.4.0",
+                "package_key": "cc-1.10.0",
                 "kind": "build",
                 "features": [],
                 "uses_default_features": true,
@@ -3415,11 +3452,11 @@
               "fallback"
             ]
           },
-          "inotify-0.11.4": {
+          "inotify-0.11.5": {
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.13.1",
+                "package_key": "bitflags-2.13.2",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3439,7 +3476,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3455,7 +3492,7 @@
             "runtime_dependencies": [
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3479,11 +3516,11 @@
               "no_std"
             ]
           },
-          "mio-1.2.2": {
+          "mio-1.2.4": {
             "runtime_dependencies": [
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3493,7 +3530,7 @@
               },
               {
                 "name": "log",
-                "package_key": "log-0.4.33",
+                "package_key": "log-0.4.34",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3510,11 +3547,11 @@
               "os-poll"
             ]
           },
-          "notify-8.2.0": {
+          "notify-8.2.1": {
             "runtime_dependencies": [
               {
                 "name": "inotify",
-                "package_key": "inotify-0.11.4",
+                "package_key": "inotify-0.11.5",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3524,7 +3561,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3534,7 +3571,7 @@
               },
               {
                 "name": "log",
-                "package_key": "log-0.4.33",
+                "package_key": "log-0.4.34",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3544,7 +3581,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.2",
+                "package_key": "mio-1.2.4",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -3556,7 +3593,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.2",
+                "package_key": "mio-1.2.4",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -3568,7 +3605,7 @@
               },
               {
                 "name": "notify_types",
-                "package_key": "notify-types-2.1.0",
+                "package_key": "notify-types-2.2.0",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3590,14 +3627,16 @@
             "build_dependencies": [],
             "features": [
               "fsevent-sys",
-              "macos_fsevent"
+              "macos_fsevent",
+              "objc2-core-foundation",
+              "objc2-core-services"
             ]
           },
-          "rustix-1.1.4": {
+          "rustix-1.1.6": {
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.13.1",
+                "package_key": "bitflags-2.13.2",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3637,7 +3676,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3647,7 +3686,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3699,18 +3738,8 @@
       },
       "x86_64-apple-darwin": {
         "overrides": {
-          "blake3-1.8.6": {
+          "blake3-1.8.7": {
             "runtime_dependencies": [
-              {
-                "name": "arrayref",
-                "package_key": "arrayref-0.3.9",
-                "kind": "normal",
-                "features": [],
-                "uses_default_features": true,
-                "optional": false,
-                "target": null,
-                "tree": "target"
-              },
               {
                 "name": "arrayvec",
                 "package_key": "arrayvec-0.7.8",
@@ -3723,7 +3752,7 @@
               },
               {
                 "name": "cfg_if",
-                "package_key": "cfg-if-1.0.4",
+                "package_key": "cfg-if-1.0.5",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3743,7 +3772,7 @@
               },
               {
                 "name": "cpufeatures",
-                "package_key": "cpufeatures-0.3.0",
+                "package_key": "cpufeatures-0.3.1",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3755,7 +3784,7 @@
             "build_dependencies": [
               {
                 "name": "cc",
-                "package_key": "cc-1.4.0",
+                "package_key": "cc-1.10.0",
                 "kind": "build",
                 "features": [],
                 "uses_default_features": true,
@@ -3777,24 +3806,8 @@
               "link"
             ]
           },
-          "cpufeatures-0.3.0": {
+          "cpufeatures-0.3.1": {
             "runtime_dependencies": [],
-            "build_dependencies": [],
-            "features": []
-          },
-          "fsevent-sys-4.1.0": {
-            "runtime_dependencies": [
-              {
-                "name": "libc",
-                "package_key": "libc-0.2.189",
-                "kind": "normal",
-                "features": [],
-                "uses_default_features": true,
-                "optional": false,
-                "target": null,
-                "tree": "target"
-              }
-            ],
             "build_dependencies": [],
             "features": []
           },
@@ -3816,11 +3829,11 @@
               "fallback"
             ]
           },
-          "notify-8.2.0": {
+          "notify-8.2.1": {
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.13.1",
+                "package_key": "bitflags-2.13.2",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3829,18 +3842,8 @@
                 "tree": "target"
               },
               {
-                "name": "fsevent_sys",
-                "package_key": "fsevent-sys-4.1.0",
-                "kind": "normal",
-                "features": [],
-                "uses_default_features": true,
-                "optional": true,
-                "target": "cfg(target_os = \"macos\")",
-                "tree": "target"
-              },
-              {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3850,7 +3853,7 @@
               },
               {
                 "name": "log",
-                "package_key": "log-0.4.33",
+                "package_key": "log-0.4.34",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -3860,12 +3863,44 @@
               },
               {
                 "name": "notify_types",
-                "package_key": "notify-types-2.1.0",
+                "package_key": "notify-types-2.2.0",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
                 "optional": false,
                 "target": null,
+                "tree": "target"
+              },
+              {
+                "name": "objc2_core_foundation",
+                "package_key": "objc2-core-foundation-0.3.2",
+                "kind": "normal",
+                "features": [
+                  "CFArray",
+                  "CFDate",
+                  "CFError",
+                  "CFRunLoop",
+                  "CFString",
+                  "CFURL",
+                  "std"
+                ],
+                "uses_default_features": false,
+                "optional": true,
+                "target": "cfg(target_os = \"macos\")",
+                "tree": "target"
+              },
+              {
+                "name": "objc2_core_services",
+                "package_key": "objc2-core-services-0.3.2",
+                "kind": "normal",
+                "features": [
+                  "FSEvents",
+                  "libc",
+                  "std"
+                ],
+                "uses_default_features": false,
+                "optional": true,
+                "target": "cfg(target_os = \"macos\")",
                 "tree": "target"
               },
               {
@@ -3882,14 +3917,76 @@
             "build_dependencies": [],
             "features": [
               "fsevent-sys",
-              "macos_fsevent"
+              "macos_fsevent",
+              "objc2-core-foundation",
+              "objc2-core-services"
             ]
           },
-          "rustix-1.1.4": {
+          "objc2-core-foundation-0.3.2": {
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.13.1",
+                "package_key": "bitflags-2.13.2",
+                "kind": "normal",
+                "features": [
+                  "std"
+                ],
+                "uses_default_features": false,
+                "optional": true,
+                "target": null,
+                "tree": "target"
+              }
+            ],
+            "build_dependencies": [],
+            "features": [
+              "CFArray",
+              "CFDate",
+              "CFError",
+              "CFRunLoop",
+              "CFString",
+              "CFURL",
+              "CFUUID",
+              "alloc",
+              "bitflags",
+              "std"
+            ]
+          },
+          "objc2-core-services-0.3.2": {
+            "runtime_dependencies": [
+              {
+                "name": "libc",
+                "package_key": "libc-0.2.191",
+                "kind": "normal",
+                "features": [],
+                "uses_default_features": false,
+                "optional": true,
+                "target": null,
+                "tree": "target"
+              },
+              {
+                "name": "objc2_core_foundation",
+                "package_key": "objc2-core-foundation-0.3.2",
+                "kind": "normal",
+                "features": [],
+                "uses_default_features": false,
+                "optional": false,
+                "target": null,
+                "tree": "target"
+              }
+            ],
+            "build_dependencies": [],
+            "features": [
+              "FSEvents",
+              "alloc",
+              "libc",
+              "std"
+            ]
+          },
+          "rustix-1.1.6": {
+            "runtime_dependencies": [
+              {
+                "name": "bitflags",
+                "package_key": "bitflags-2.13.2",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3929,7 +4026,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3939,7 +4036,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3960,18 +4057,8 @@
       },
       "x86_64-unknown-linux-gnu": {
         "overrides": {
-          "blake3-1.8.6": {
+          "blake3-1.8.7": {
             "runtime_dependencies": [
-              {
-                "name": "arrayref",
-                "package_key": "arrayref-0.3.9",
-                "kind": "normal",
-                "features": [],
-                "uses_default_features": true,
-                "optional": false,
-                "target": null,
-                "tree": "target"
-              },
               {
                 "name": "arrayvec",
                 "package_key": "arrayvec-0.7.8",
@@ -3984,7 +4071,7 @@
               },
               {
                 "name": "cfg_if",
-                "package_key": "cfg-if-1.0.4",
+                "package_key": "cfg-if-1.0.5",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -4004,7 +4091,7 @@
               },
               {
                 "name": "cpufeatures",
-                "package_key": "cpufeatures-0.3.0",
+                "package_key": "cpufeatures-0.3.1",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -4016,7 +4103,7 @@
             "build_dependencies": [
               {
                 "name": "cc",
-                "package_key": "cc-1.4.0",
+                "package_key": "cc-1.10.0",
                 "kind": "build",
                 "features": [],
                 "uses_default_features": true,
@@ -4030,7 +4117,7 @@
               "std"
             ]
           },
-          "cpufeatures-0.3.0": {
+          "cpufeatures-0.3.1": {
             "runtime_dependencies": [],
             "build_dependencies": [],
             "features": []
@@ -4042,11 +4129,11 @@
               "fallback"
             ]
           },
-          "inotify-0.11.4": {
+          "inotify-0.11.5": {
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.13.1",
+                "package_key": "bitflags-2.13.2",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -4066,7 +4153,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -4082,7 +4169,7 @@
             "runtime_dependencies": [
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -4106,11 +4193,11 @@
               "no_std"
             ]
           },
-          "mio-1.2.2": {
+          "mio-1.2.4": {
             "runtime_dependencies": [
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -4120,7 +4207,7 @@
               },
               {
                 "name": "log",
-                "package_key": "log-0.4.33",
+                "package_key": "log-0.4.34",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -4137,11 +4224,11 @@
               "os-poll"
             ]
           },
-          "notify-8.2.0": {
+          "notify-8.2.1": {
             "runtime_dependencies": [
               {
                 "name": "inotify",
-                "package_key": "inotify-0.11.4",
+                "package_key": "inotify-0.11.5",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -4151,7 +4238,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -4161,7 +4248,7 @@
               },
               {
                 "name": "log",
-                "package_key": "log-0.4.33",
+                "package_key": "log-0.4.34",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -4171,7 +4258,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.2",
+                "package_key": "mio-1.2.4",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -4183,7 +4270,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.2",
+                "package_key": "mio-1.2.4",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -4195,7 +4282,7 @@
               },
               {
                 "name": "notify_types",
-                "package_key": "notify-types-2.1.0",
+                "package_key": "notify-types-2.2.0",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -4217,14 +4304,16 @@
             "build_dependencies": [],
             "features": [
               "fsevent-sys",
-              "macos_fsevent"
+              "macos_fsevent",
+              "objc2-core-foundation",
+              "objc2-core-services"
             ]
           },
-          "rustix-1.1.4": {
+          "rustix-1.1.6": {
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.13.1",
+                "package_key": "bitflags-2.13.2",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -4264,7 +4353,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -4274,7 +4363,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -4326,18 +4415,8 @@
       },
       "x86_64-unknown-linux-musl": {
         "overrides": {
-          "blake3-1.8.6": {
+          "blake3-1.8.7": {
             "runtime_dependencies": [
-              {
-                "name": "arrayref",
-                "package_key": "arrayref-0.3.9",
-                "kind": "normal",
-                "features": [],
-                "uses_default_features": true,
-                "optional": false,
-                "target": null,
-                "tree": "target"
-              },
               {
                 "name": "arrayvec",
                 "package_key": "arrayvec-0.7.8",
@@ -4350,7 +4429,7 @@
               },
               {
                 "name": "cfg_if",
-                "package_key": "cfg-if-1.0.4",
+                "package_key": "cfg-if-1.0.5",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -4370,7 +4449,7 @@
               },
               {
                 "name": "cpufeatures",
-                "package_key": "cpufeatures-0.3.0",
+                "package_key": "cpufeatures-0.3.1",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -4382,7 +4461,7 @@
             "build_dependencies": [
               {
                 "name": "cc",
-                "package_key": "cc-1.4.0",
+                "package_key": "cc-1.10.0",
                 "kind": "build",
                 "features": [],
                 "uses_default_features": true,
@@ -4396,7 +4475,7 @@
               "std"
             ]
           },
-          "cpufeatures-0.3.0": {
+          "cpufeatures-0.3.1": {
             "runtime_dependencies": [],
             "build_dependencies": [],
             "features": []
@@ -4408,11 +4487,11 @@
               "fallback"
             ]
           },
-          "inotify-0.11.4": {
+          "inotify-0.11.5": {
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.13.1",
+                "package_key": "bitflags-2.13.2",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -4432,7 +4511,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -4448,7 +4527,7 @@
             "runtime_dependencies": [
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -4472,11 +4551,11 @@
               "no_std"
             ]
           },
-          "mio-1.2.2": {
+          "mio-1.2.4": {
             "runtime_dependencies": [
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -4486,7 +4565,7 @@
               },
               {
                 "name": "log",
-                "package_key": "log-0.4.33",
+                "package_key": "log-0.4.34",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -4503,11 +4582,11 @@
               "os-poll"
             ]
           },
-          "notify-8.2.0": {
+          "notify-8.2.1": {
             "runtime_dependencies": [
               {
                 "name": "inotify",
-                "package_key": "inotify-0.11.4",
+                "package_key": "inotify-0.11.5",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -4517,7 +4596,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -4527,7 +4606,7 @@
               },
               {
                 "name": "log",
-                "package_key": "log-0.4.33",
+                "package_key": "log-0.4.34",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -4537,7 +4616,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.2",
+                "package_key": "mio-1.2.4",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -4549,7 +4628,7 @@
               },
               {
                 "name": "mio",
-                "package_key": "mio-1.2.2",
+                "package_key": "mio-1.2.4",
                 "kind": "normal",
                 "features": [
                   "os-ext"
@@ -4561,7 +4640,7 @@
               },
               {
                 "name": "notify_types",
-                "package_key": "notify-types-2.1.0",
+                "package_key": "notify-types-2.2.0",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": true,
@@ -4583,14 +4662,16 @@
             "build_dependencies": [],
             "features": [
               "fsevent-sys",
-              "macos_fsevent"
+              "macos_fsevent",
+              "objc2-core-foundation",
+              "objc2-core-services"
             ]
           },
-          "rustix-1.1.4": {
+          "rustix-1.1.6": {
             "runtime_dependencies": [
               {
                 "name": "bitflags",
-                "package_key": "bitflags-2.13.1",
+                "package_key": "bitflags-2.13.2",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -4630,7 +4711,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -4640,7 +4721,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.189",
+                "package_key": "libc-0.2.191",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -4712,39 +4793,36 @@
       "edition": "2021",
       "build_script": "build.rs"
     },
-    "arc-swap-1.9.2": {
+    "arc-swap-1.9.3": {
       "edition": "2018"
-    },
-    "arrayref-0.3.9": {
-      "edition": "2015"
     },
     "arrayvec-0.7.8": {
       "edition": "2018"
     },
-    "async-trait-0.1.91": {
+    "async-trait-0.1.92": {
       "edition": "2021",
       "proc_macro": true
     },
     "autocfg-1.5.1": {
       "edition": "2015"
     },
-    "bitflags-2.13.1": {
+    "bitflags-2.13.2": {
       "edition": "2021"
     },
-    "blake3-1.8.6": {
+    "blake3-1.8.7": {
       "edition": "2024",
       "build_script": "build.rs"
     },
-    "cc-1.4.0": {
-      "edition": "2018"
+    "cc-1.10.0": {
+      "edition": "2021"
     },
-    "cfg-if-1.0.4": {
+    "cfg-if-1.0.5": {
       "edition": "2018"
     },
     "chrono-0.4.45": {
       "edition": "2021"
     },
-    "clap-4.6.6": {
+    "clap-4.6.7": {
       "edition": "2024",
       "binaries": [
         {
@@ -4753,14 +4831,14 @@
         }
       ]
     },
-    "clap_builder-4.6.6": {
+    "clap_builder-4.6.7": {
       "edition": "2024"
     },
-    "clap_derive-4.6.4": {
+    "clap_derive-4.6.7": {
       "edition": "2024",
       "proc_macro": true
     },
-    "clap_lex-1.1.0": {
+    "clap_lex-1.1.1": {
       "edition": "2024"
     },
     "colorchoice-1.0.5": {
@@ -4772,13 +4850,13 @@
     "core-foundation-sys-0.8.7": {
       "edition": "2018"
     },
-    "cpufeatures-0.3.0": {
+    "cpufeatures-0.3.1": {
       "edition": "2024"
     },
     "dyn-clone-1.0.20": {
       "edition": "2018"
     },
-    "equivalent-1.0.2": {
+    "equivalent-1.0.3": {
       "edition": "2015"
     },
     "errno-0.3.14": {
@@ -4791,20 +4869,17 @@
       "edition": "2018",
       "build_script": "build.rs"
     },
-    "find-msvc-tools-0.1.9": {
-      "edition": "2018"
+    "find-msvc-tools-0.1.15": {
+      "edition": "2021"
     },
-    "fsevent-sys-4.1.0": {
-      "edition": "2018"
-    },
-    "gen-macros-0.1.54": {
+    "gen-macros-0.1.55": {
       "edition": "2024",
       "proc_macro": true
     },
-    "gen-platform-0.1.54": {
+    "gen-platform-0.1.55": {
       "edition": "2024"
     },
-    "gen-types-0.1.54": {
+    "gen-types-0.1.55": {
       "edition": "2024"
     },
     "getrandom-0.4.3": {
@@ -4820,20 +4895,20 @@
     "iana-time-zone-0.1.65": {
       "edition": "2021"
     },
-    "indexmap-2.14.0": {
+    "indexmap-2.14.2": {
       "edition": "2024"
     },
     "inlinable_string-0.1.15": {
       "edition": "2018"
     },
-    "inotify-0.11.4": {
+    "inotify-0.11.5": {
       "edition": "2018"
     },
     "inotify-sys-0.1.8": {
       "edition": "2015",
       "build_script": "build.rs"
     },
-    "inventory-0.3.24": {
+    "inventory-0.3.25": {
       "edition": "2021"
     },
     "is_terminal_polyfill-1.70.2": {
@@ -4842,17 +4917,17 @@
     "itoa-1.0.18": {
       "edition": "2021"
     },
-    "lazy_static-1.5.0": {
+    "lazy_static-1.5.1": {
       "edition": "2015"
     },
-    "libc-0.2.189": {
+    "libc-0.2.191": {
       "edition": "2021",
       "build_script": "build.rs"
     },
     "linux-raw-sys-0.12.1": {
       "edition": "2021"
     },
-    "log-0.4.33": {
+    "log-0.4.34": {
       "edition": "2021"
     },
     "matchers-0.2.0": {
@@ -4861,14 +4936,14 @@
     "memchr-2.8.3": {
       "edition": "2021"
     },
-    "mio-1.2.2": {
+    "mio-1.2.4": {
       "edition": "2021"
     },
-    "notify-8.2.0": {
+    "notify-8.2.1": {
       "edition": "2021"
     },
-    "notify-types-2.1.0": {
-      "edition": "2021"
+    "notify-types-2.2.0": {
+      "edition": "2024"
     },
     "nu-ansi-term-0.50.3": {
       "edition": "2021"
@@ -4876,6 +4951,12 @@
     "num-traits-0.2.19": {
       "edition": "2021",
       "build_script": "build.rs"
+    },
+    "objc2-core-foundation-0.3.2": {
+      "edition": "2021"
+    },
+    "objc2-core-services-0.3.2": {
+      "edition": "2021"
     },
     "once_cell-1.21.4": {
       "edition": "2021"
@@ -4916,7 +4997,7 @@
     "regex-syntax-0.8.11": {
       "edition": "2021"
     },
-    "rustix-1.1.4": {
+    "rustix-1.1.6": {
       "edition": "2021",
       "build_script": "build.rs"
     },
@@ -4957,7 +5038,7 @@
         "path": "lib.rs"
       }
     },
-    "serde_json-1.0.151": {
+    "serde_json-1.0.154": {
       "edition": "2021",
       "build_script": "build.rs"
     },
@@ -4970,7 +5051,7 @@
     "sharded-slab-0.1.7": {
       "edition": "2018"
     },
-    "shidou-0.1.10": {
+    "shidou-0.1.11": {
       "edition": "2024",
       "lib_target": {
         "name": "shidou",
@@ -4983,7 +5064,7 @@
     "shlex-2.0.1": {
       "edition": "2018"
     },
-    "smallvec-1.15.2": {
+    "smallvec-1.16.4": {
       "edition": "2018"
     },
     "strsim-0.11.1": {
@@ -4992,24 +5073,24 @@
     "syn-2.0.119": {
       "edition": "2021"
     },
-    "syn-3.0.3": {
+    "syn-3.0.9": {
       "edition": "2021"
     },
     "tempfile-3.27.0": {
       "edition": "2021"
     },
-    "thiserror-2.0.19": {
+    "thiserror-2.0.21": {
       "edition": "2021",
       "build_script": "build.rs"
     },
-    "thiserror-impl-2.0.19": {
+    "thiserror-impl-2.0.21": {
       "edition": "2021",
       "proc_macro": true
     },
     "thread_local-1.1.10": {
       "edition": "2021"
     },
-    "tokio-1.53.1": {
+    "tokio-1.54.1": {
       "edition": "2021"
     },
     "toml-0.8.23": {
@@ -5047,7 +5128,7 @@
       "edition": "2018",
       "build_script": "build.rs"
     },
-    "unicode-ident-1.0.24": {
+    "unicode-ident-1.0.27": {
       "edition": "2021"
     },
     "unsafe-libyaml-norway-0.2.15": {
